@@ -25,6 +25,7 @@ import threejs from "./tech/threejs.svg";
 import diycam from "./company/diycam.png";
 import fontina from "./company/fontina.png";
 import shriyam1 from "./company/shriyam1.jpg";
+import alphabee from "./company/AlphaBee.jpg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -32,7 +33,8 @@ import tripguide from "./tripguide.png";
 import hrx_web from "./hrx_ss.jpg";
 import evently from "./evently.jpg"
 import hostel_app from "./hostel_app.jpg";
-import GIS_project from "./GIS_project.jpg"
+import GIS_project from "./GIS_project.jpg";
+import ecomm from "./ecomm1.jpg";
 
 export {
   logo,
@@ -57,6 +59,7 @@ export {
   redux,
   threejs,
   shriyam1,
+  alphabee,
   carrent,
   jobit,
   tripguide,
@@ -65,5 +68,6 @@ export {
   hrx_web,
   evently,
   hostel_app,
-  GIS_project
+  GIS_project,
+  ecomm
 };
