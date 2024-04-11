@@ -22,11 +22,13 @@ import {
     threejs,
     fontina,
     shriyam1,
+    alphabee,
     diycam,
     hrx_web,
     evently,
     hostel_app,
-    GIS_project
+    GIS_project,
+    ecomm
 } from "../assets";
 
 export const navLinks = [
@@ -155,6 +157,18 @@ const experiences = [
             "Along with my technical skills, I have proven to be a dedicated and collaborative team player, consistently seeking feedback and striving for excellence.",
         ],
     },
+    {
+        title: "SDE Intern",
+        company_name: "AlphaBee Technologies",
+        icon: alphabee,
+        iconBg: "#383E56",
+        date: "Oct 2023 - Mar 2024",
+        points: [
+            "Developed MERN Stack e-commerce app, translating Figma designs into a functional frontend for client satisfaction.",
+            "Developed and optimized backend functionalities for MERN Stack e-commerce app, resulting increase in site speed and a decrease in page load time.",
+            "Collaborated with design team to implement interactive features on the frontend, resulting in a increase in customer engagement and a decrease in bounce rate.",
+        ],
+    },
 ];
 
 const Achievements = [
@@ -166,7 +180,7 @@ const Achievements = [
     },
     {
         Achievements:
-            "Accepted conference paper on \"ALZHEIMER’S DISEASE STAGES CLASSIFICATION USING MRI AND DEEP LEARNING\" at The International Conference on Artificial Intelligence and Soft Computing ICAISC 2023.",
+            " Jay R. Deore and Piyush Nagpal ,\"ALZHEIMER’S DISEASE STAGES CLASSIFICATION USING MRI AND DEEP LEARNING\", IJEEDC , ISSN(p): 2320-2084, ISSN(e): 2321-2950 Volume-11, Issue-5, May.-2023.",
         certificate_link: "https://iraj.in/journal/IJEEDC//paper_detail.php?paper_id=19761&nameAlzheimer",
         no: "2"
 
@@ -185,10 +199,38 @@ const Achievements = [
         no: "4"
 
     },
+    {
+        Achievements:
+            "Published Research paper on 'LOGISTIC ROUTE OPTIMISATION BASED ON GIS' at NCIPC.",
+        certificate_link: "https://drive.google.com/file/d/1bl1bOQa5XUclAbNawfI-99b_M61pKXAI/view",
+        no: "5"
+
+    },
 
 ];
 
 const projects = [
+    {
+        name: "Techie",
+        description:
+            "An e-commerce website built with Next.js and Payload CMS. The website is designed to sell electronics products such as laptops, phones, smartwatches, accessories, tablets, TVs, and remotes.",
+        tags: [
+            {
+                name: "NextJs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Payload",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: ecomm,
+        source_code_link: "https://github.com/jaydeore-007/techie",
+    },
     {
         name: "Evently",
         description:
