@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { FaLinkedin } from "react-icons/fa";
+
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -124,6 +126,23 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+        <div className="text-white mt-8">
+          <p>Contact: +91 9307842683</p>
+          <p>Email: jaydeore93@gmail.com</p>
+          <p style={{ display: "flex", alignItems: "center" }}>
+            LinkedIn:{" "}
+            <a
+              href="https://www.linkedin.com/in/jay-deore-661538198/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ marginLeft: "5px" }}
+            >
+              <FaLinkedin />
+            </a>
+          </p>
+        </div>
+
+
       </motion.div>
 
       <motion.div
