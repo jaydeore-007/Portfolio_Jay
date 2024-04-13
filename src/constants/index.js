@@ -234,7 +234,7 @@ const projects = [
     {
         name: "Evently",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Event management platform including functionalities like Create, read, update, and delete events. Effortless checkout using Stripe, robust order management, and efficient search for seamless event-related transactions",
         tags: [
             {
                 name: "NextJs",
@@ -255,7 +255,7 @@ const projects = [
     {
         name: "Hostel_App",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Hostel Room Booking App made using Flutter for UI and Firebase as database.Included remote monitoring/controls for electrical appliances using IoT",
         tags: [
             {
                 name: "Dart",
