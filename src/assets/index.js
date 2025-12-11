@@ -25,7 +25,8 @@ import threejs from "./tech/threejs.svg";
 import diycam from "./company/diycam.png";
 import fontina from "./company/fontina.png";
 import shriyam1 from "./company/shriyam1.jpg";
-import alphabee from "./company/AlphaBee.jpg"
+import alphabee from "./company/AlphaBee.jpg";
+import jobAlchemy from "./company/jobAlchemy.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -69,5 +70,6 @@ export {
   evently,
   hostel_app,
   GIS_project,
-  ecomm
+  ecomm,
+  jobAlchemy
 };

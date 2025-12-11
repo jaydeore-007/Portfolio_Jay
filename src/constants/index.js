@@ -28,13 +28,14 @@ import {
     evently,
     hostel_app,
     GIS_project,
-    ecomm
+    ecomm,
+    jobAlchemy
 } from "../assets";
 
 export const navLinks = [
     {
         id: "about",
-        title: "About",
+        title: "who am I?",
     },
     {
         id: "work",
@@ -54,6 +55,14 @@ const services = [
     {
         title: "AI ML Enthusiast",
         icon: mobile,
+    },
+        {
+        title: "Finance & Valuation Analyst",
+        icon: backend,
+    },
+    {
+        title: "Data-Driven Decision Maker",
+        icon: web,
     },
     // {
     //     title: "Backend Developer",
@@ -161,7 +170,7 @@ const experiences = [
         title: "SDE Intern",
         company_name: "AlphaBee Technologies",
         icon: alphabee,
-        iconBg: "#383E56",
+        iconBg: "#090a0aff",
         date: "Oct 2023 - Mar 2024",
         points: [
             "Developed MERN Stack e-commerce app, translating Figma designs into a functional frontend for client satisfaction.",
@@ -169,44 +178,64 @@ const experiences = [
             "Collaborated with design team to implement interactive features on the frontend, resulting in a increase in customer engagement and a decrease in bounce rate.",
         ],
     },
+    {
+    title: "Freelance Developer",
+    company_name: "Job Alchemy, India",
+    icon: jobAlchemy,
+    iconBg: "#383E56",
+    date: "Dec 2024 - May 2025",
+    points: [
+        "Freelance developer for a startup, managing full-stack development from concept to deployment.",
+        "Designed creative website layouts and implemented responsive frontends.",
+        "Collaborated on backend systems to ensure smooth data flow and performance.",
+        "Integrated AI prompts to enhance functionality and improve user experience.",
+    ],
+    },
 ];
 
 const Achievements = [
     {
         Achievements:
+            "Qualified the Zonal Round of the CFA Research Challenge, representing my institute in equity research, valuation, and financial analysis.",
+        certificate_link: "https://www.linkedin.com/posts/cfasocietyindia_irc-activity-7404751117865234433-G6q4?rcm=ACoAAAlEXz4BMoCc-VWZFx-l5yMJGMBgn1U5PCI", 
+        no: "1"
+    },
+    {
+        Achievements:
             "Successfully obtained copyright registration (ROC number L-123685/2023) for the hostel registration system.",
         certificate_link: "https://iraj.in/journal/IJEEDC//paper_detail.php?paper_id=19761&nameAlzheimer",
-        no: "1"
+        no: "2"
+    },
+       {
+        Achievements:
+            "Published Research paper on 'LOGISTIC ROUTE OPTIMISATION BASED ON GIS' at NCIPC.",
+        certificate_link: "https://drive.google.com/file/d/1bl1bOQa5XUclAbNawfI-99b_M61pKXAI/view",
+        no: "3"
+
     },
     {
         Achievements:
             " Jay R. Deore and Piyush Nagpal ,\"ALZHEIMER’S DISEASE STAGES CLASSIFICATION USING MRI AND DEEP LEARNING\", IJEEDC , ISSN(p): 2320-2084, ISSN(e): 2321-2950 Volume-11, Issue-5, May.-2023.",
         certificate_link: "https://iraj.in/journal/IJEEDC//paper_detail.php?paper_id=19761&nameAlzheimer",
-        no: "2"
+        no: "4"
 
     },
     {
         Achievements:
             "Finalist in ElasticRun's #Possibilities Hackathon 2022.",
         certificate_link: "https://iraj.in/journal/IJEEDC//paper_detail.php?paper_id=19761&nameAlzheimer",
-        no: "3"
+        no: "5"
 
     },
     {
         Achievements:
             "Attended ACM India Winter School on topic 'Optimization for Machine Learning and Operations Research' ",
         certificate_link: "https://drive.google.com/file/d/1bl1bOQa5XUclAbNawfI-99b_M61pKXAI/view",
-        no: "4"
+        no: "6"
 
     },
-    {
-        Achievements:
-            "Published Research paper on 'LOGISTIC ROUTE OPTIMISATION BASED ON GIS' at NCIPC.",
-        certificate_link: "https://drive.google.com/file/d/1bl1bOQa5XUclAbNawfI-99b_M61pKXAI/view",
-        no: "5"
-
-    },
-
+  
+    
 ];
 
 const projects = [
